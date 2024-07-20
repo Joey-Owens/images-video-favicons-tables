@@ -89,7 +89,6 @@
                 <section>
                     <h3><span>&#10033;&nbsp;</span> Using HTML5 to Add a Video</h3>
                     <p>The video that we will embed below is included in the video folder of this project. Your zyBook explains how these tags work in detail, but today we'll write some minimum code to get the video to display on our page. Below, we'll add the video from the video folder in the project. Include the attribute that will display controls for the video, and set the width.</p>
-                    <!-- TO DO: Add the video from the files below using HTML5 -->
                     <video controls width="425">
                         <source src="video/video.mp4" type="video/mp4">
                         Your browser doesn't support this video format
@@ -120,8 +119,7 @@
                 <h2>Using Tables in HTML</h2>
                 <p>In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.</p>
                 <table>
-                    <!-- TO DO: Complete the code below to create a caption for this table -->
-                    Hours of Operation
+                    <caption>Hours of Operation</caption>
 
                     <thead>
                         <tr>
@@ -141,8 +139,7 @@
                     </tr>
 
                     <tr>
-                        <!-- TO DO: Complete the code below to create a cell that will span all columns -->
-                        <!-- Wednesday - <span class="bold">Closed</span> -->
+                        <td colspan="2">Wednesday - <span class="bold">Closed</span></td>
                     </tr>
 
                     <tr>
@@ -157,13 +154,11 @@
 
                     <tr>
                         <td>Saturday</td>
-                        <!-- TO DO: Complete the code below to create a cell that will span two rows -->
                         <td rowspan="2"><span>Closed</span> By Appointment Only</td>
                     </tr>
 
                     <tr>
-                        <!-- TO DO: Complete the code below to create a cell containing that text -->
-                        <!-- Sunday -->
+                        <td>Sunday</td>
                     </tr>
                 </table>
             </section>
